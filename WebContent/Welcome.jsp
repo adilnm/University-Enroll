@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>University of Texas</h1>
-	<form action="">
+	<form action="CourseEnrollment.jsp">
 		<input type="submit" value="Course Enrollment" name="course">
 	</form><br/>
 	
