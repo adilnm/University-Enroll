@@ -25,5 +25,11 @@ public class A {
 
 		Stream<String> streams = list.stream();
 		streams.forEach(System.out::println);
+
+		Stream<String> streams2 = list.stream();
+		streams2.map(String::toUpperCase).forEach(System.out::println);
+
+		Stream<Integer> stream = Stream.iterate(0, s -> s + 1);
+//		stream.limit(90).forEach(System.out::println);
 	}
 }
